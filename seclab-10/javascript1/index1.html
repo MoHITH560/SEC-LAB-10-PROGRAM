@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1.Calculator</title> 
+    <style>
+        body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+        }
+        input, select, button {
+        padding: 10px;
+        margin: 10px;
+        font-size: 16px;
+        }
+        #result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(58, 58, 131);
+}
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="enter a number1" id="num1">
+    <input type="text" placeholder="enter a number2" id="num2">
+    <select name="" id="operation">
+        <option value="addition">+</option>
+        <option value="subraction">-</option>
+        <option value="multiplication">*</option>
+        <option value="division">/</option>
+    </select>
+    <button id="result" onclick="calculate()">calculate</button>
+    <h2 id="answer">result:</h2>
+  
+    <script src="./script2.js"></script>
+</body>
+</html>
